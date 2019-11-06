@@ -1,3 +1,9 @@
+# Q1
+get_head <- function(file, number) {
+  return(file[1:number,])
+}
+
+# Q2
 # Load data into R
 df <- read.csv("iris.csv", header=TRUE)
 
